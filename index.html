@@ -1,0 +1,29 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="styles.css">
+    <script type="text/javascript" src="seedrandom.min.js"></script>
+    <script type="text/javascript" src="logic.js"></script>
+  </head>
+  <body>
+    <div id="main">
+      <ul class="flex-outer">
+        <li>
+          <label>Password:</label>
+          <input type="text" id="password" placeholder="Enter password for encryption/decryption...">
+        </li>
+        <li>
+          <label>Cipher/Plain Text:</label>
+          <textarea rows="6" id="cipher" placeholder="Enter cipher or plain text here..."></textarea>
+        </li>
+        <li>
+          <label>Result:</label>
+          <textarea readonly rows="6" id="result" placeholder="Click a button to generate the result..."></textarea>
+        </li>
+        <li id="buttons">
+          <a href="javascript:encrypt();">ENCRYPT</a>
+          <a href="javascript:decrypt();">DECRYPT</a>
+        </li>
+      </ul>
+    </div>
+  </body>
+</html>

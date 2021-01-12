@@ -1,0 +1,45 @@
+body {
+font-family: system-ui;
+font-size: 1.5em;
+margin: 0;
+}
+textarea, input {
+font-family: system-ui;
+}
+#main {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+text-align: center;
+min-height: 100vh;
+}
+li {
+width: 70vw;
+margin: 20px 0;
+}
+#buttons {
+display: flex;
+justify-content: space-between;
+align-content: center;
+}
+#buttons a {
+width: 45%;
+padding: 15px 0;
+color: white;
+background-color: #007bff;
+text-decoration: none;
+}
+.flex-outer li,
+.flex-inner {
+display: flex;
+flex-wrap: wrap;
+align-items: center;
+}
+.flex-outer > li > label,
+.flex-outer li p {
+flex: 1 0 70vw;
+}
+.flex-outer > li > label + * {
+flex: 1 0 70vw;
+}
