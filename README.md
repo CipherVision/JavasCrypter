@@ -4,6 +4,7 @@ Client-side symmetric encryption/decryption via a custom implemented block ciphe
 
 ## Usage
 
+Visit https://javascrypter.droppages.net for an online version.
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
